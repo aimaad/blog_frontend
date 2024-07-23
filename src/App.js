@@ -4,7 +4,6 @@ import Layout from './components/Layout';
 
 import Add from './pages/Add';
 import Edit from './pages/Edit';
-import Delete from './pages/Delete';
 import Home from './pages/Home';
 
 function App() {
@@ -15,7 +14,6 @@ function App() {
       <Route path="/" element={<Home/>} />
       <Route path="/Add" element={<Add />} />
       <Route path="/Edit/:id" element={<Edit />} />
-      <Route path="/Delete" element={<Delete />} />
       </Routes>
     </Layout>
   </Router>
